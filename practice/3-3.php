@@ -12,12 +12,11 @@
   <header>
     <h1 class="font-weight-normal">よくわかるPHPの教科書</h1>
   </header>
-
   <main>
     <h2>Practice</h2>
     <pre>
       <?php
-        /* ここに，PHPのプログラムを記述します */
+        print('今日は'.date(Y).'年'.date(n).'月'.date(j).'日です');
       ?>
     </pre>
   </main>

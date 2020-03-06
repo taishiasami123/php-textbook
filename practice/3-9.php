@@ -17,7 +17,16 @@
     <h2>Practice</h2>
     <pre>
       <?php
-        /* ここに，PHPのプログラムを記述します */
+        $hardware = [
+          'win' => 'Windows',
+          'mac' => 'Macintosh',
+          'iphone' => 'iPhone',
+          'ipad' => 'iPad',
+          'android' => 'Android'
+        ];
+        foreach ($hardware as $abbreviation => $formalName) {
+          print ($abbreviation.': '.$formalName."\n");
+        }
       ?>
     </pre>
   </main>

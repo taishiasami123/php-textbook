@@ -12,12 +12,13 @@
   <header>
     <h1 class="font-weight-normal">よくわかるPHPの教科書</h1>
   </header>
-
   <main>
     <h2>Practice</h2>
     <pre>
       <?php
-        /* ここに，PHPのプログラムを記述します */
+        for($i = 100; $i >= 1; $i = $i - 2) {
+          print ($i."\n");
+        }
       ?>
     </pre>
   </main>

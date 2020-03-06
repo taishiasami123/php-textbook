@@ -12,12 +12,17 @@
   <header>
     <h1 class="font-weight-normal">よくわかるPHPの教科書</h1>
   </header>
-
   <main>
     <h2>Practice</h2>
     <pre>
       <?php
-        /* ここに，PHPのプログラムを記述します */
+        $i = 1;
+        while($i <= 365) {
+          $timestamp = strtotime('+'.$i.'day');
+          $day = date('n/j(D)', $timestamp);
+          $i++;
+          print ($day."\n");
+        }
       ?>
     </pre>
   </main>

@@ -12,12 +12,12 @@
   <header>
     <h1 class="font-weight-normal">よくわかるPHPの教科書</h1>
   </header>
-
   <main>
     <h2>Practice</h2>
     <pre>
       <?php
-        /* ここに，PHPのプログラムを記述します */
+        $sum = 8 + 2;
+        print($sum);
       ?>
     </pre>
   </main>
